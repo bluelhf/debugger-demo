@@ -1,0 +1,15 @@
+name: DebuggerDemo
+version: ${project.version}
+api-version: 1.19
+main: blue.lhf.debugger_demo.DebuggerDemo
+
+
+permissions:
+  debuggerdemo.test:
+    default: true
+    description: Allows you to run the test command
+
+commands:
+  test:
+    description: Runs the test command
+    permission: debuggerdemo.test
